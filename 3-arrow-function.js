@@ -93,18 +93,39 @@
 
 // Using map.....
 
-const numbers = [4, 6, 8, 10, 12, 24, 46, 96, 19]
+// const numbers = [4, 6, 8, 10, 12, 24, 46, 96, 19]
 
-const output = numbers.map(number => number * 5)
+// const output = numbers.map(number => number * 5)
 
-console.log(output)
-
-
+// console.log(output)
 
 
 
+// ৬. [ চ্যালেঞ্জিং। গুগলে সার্চ দিয়ে বের করো ] অনেকগুলা সংখ্যার একটা array থেকে শুধু বিজোড় সংখ্যা বের করে নিয়ে আসার জন্য filter ইউজ করো
+
+const numbers = [5, 4, 6, 8, 41, 30, 43, 24, 76, 38, 80];
+const oddNumbers = numbers.filter(number => number % 2);
+
+console.log(oddNumbers)
+
+// ৭. একটা array এর মধ্যে অনেকগুলা অবজেক্ট আছে। সেখানে যেই অবজেক্ট এর price আছে ৫০০০ টেক্কা সেই অবজেক্টকে find দিয়ে বের করো।
 
 
+
+const mobiles = [
+    { name: 'Motorolla', price: 2000, color: 'Black' },
+    { name: 'Samsung', price: 3000, color: 'white' },
+    { name: 'One Plus', price: 5000, color: 'Gray' },
+    { name: 'iPhone', price: 6000, color: 'Gold' }
+]
+
+const midRangeMobile = mobiles.find(mobile => mobile.price == 5000)
+
+
+console.log(midRangeMobile)
+
+// filter Array er moddhe dibe
+// Find only Element er moddhe dibe
 
 
 
