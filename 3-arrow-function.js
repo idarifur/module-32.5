@@ -103,29 +103,38 @@
 
 // ৬. [ চ্যালেঞ্জিং। গুগলে সার্চ দিয়ে বের করো ] অনেকগুলা সংখ্যার একটা array থেকে শুধু বিজোড় সংখ্যা বের করে নিয়ে আসার জন্য filter ইউজ করো
 
-const numbers = [5, 4, 6, 8, 41, 30, 43, 24, 76, 38, 80];
-const oddNumbers = numbers.filter(number => number % 2);
+// const numbers = [5, 4, 6, 8, 41, 30, 43, 24, 76, 38, 80];
+// const oddNumbers = numbers.filter(number => number % 2);
 
-console.log(oddNumbers)
+// console.log(oddNumbers)
 
 // ৭. একটা array এর মধ্যে অনেকগুলা অবজেক্ট আছে। সেখানে যেই অবজেক্ট এর price আছে ৫০০০ টেক্কা সেই অবজেক্টকে find দিয়ে বের করো।
 
 
 
-const mobiles = [
-    { name: 'Motorolla', price: 2000, color: 'Black' },
-    { name: 'Samsung', price: 3000, color: 'white' },
-    { name: 'One Plus', price: 5000, color: 'Gray' },
-    { name: 'iPhone', price: 6000, color: 'Gold' }
-]
+// const mobiles = [
+//     { name: 'Motorolla', price: 2000, color: 'Black' },
+//     { name: 'Samsung', price: 3000, color: 'white' },
+//     { name: 'One Plus', price: 5000, color: 'Gray' },
+//     { name: 'iPhone', price: 6000, color: 'Gold' }
+// ]
 
-const midRangeMobile = mobiles.find(mobile => mobile.price == 5000)
+// const midRangeMobile = mobiles.find(mobile => mobile.price == 5000)
 
 
-console.log(midRangeMobile)
+// console.log(midRangeMobile)
+
+
+
+
+
+
+
+// ৭.৫ [এক্সট্রা] জাভাস্ক্রিপ্ট এ array এর map, forEach, filter, find কোনটা দিয়ে কি হয়। সেটার একটা সামারি লিখে ফেলো।
 
 // filter Array er moddhe dibe
 // Find only Element er moddhe dibe
+//(32-6 video: It has been discussed in eleborately in last 5 mins)
 
 
 
